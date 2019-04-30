@@ -116,7 +116,7 @@ public class AdministrationController {
 
     private void fileSaveInFolder(Book bBook, MultipartFile file, HttpServletRequest request) throws IOException {
         byte[] bytes = file.getBytes();
-        String p = request.getSession().getServletContext().getRealPath("/static/images/");
+        String p = request.getSession().getServletContext().getRealPath("/main/webapp/static/images/");
         System.out.println(p);
         Path path = Paths.get(p + bBook.getCode() + ".jpg");
         Files.write(path, bytes);
