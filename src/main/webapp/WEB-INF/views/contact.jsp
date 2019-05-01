@@ -2,6 +2,6 @@
 	<div class="row">
 		<h1>Contact Us</h1>
 		<hr/>
-		<p>This is an contact us page</p>
+		<p>ndonskih63@gmail.com</p>
 	</div>
 </div>
