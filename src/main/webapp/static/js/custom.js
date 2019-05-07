@@ -402,7 +402,7 @@ $(function () {
                 }
             });
 
-    var domen = 'http://localhost:8080';
+    var domen = 'http://storemybook.herokuapp.com';
 
     $("#review_submit").on('click', function () {
         $.ajax({
